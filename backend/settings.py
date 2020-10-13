@@ -25,7 +25,7 @@ SECRET_KEY = 'a!4vjyn*-cs#=6ovk_o9y7#!@$@@*6wh*!@j-c*5^&7%i%%^r$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["to-doappdjango.herokuapp.com"]
 
 
 # Application definition
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',            # add this
     'rest_framework',  
+    
     'todo',
 ]
 
